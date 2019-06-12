@@ -5,16 +5,20 @@ body {
 
 #navbar {
   width: 100%;
-  height: 10%;
+  height: 6%;
   background: #000;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  position: sticky;
+  position: sticky;
+  top: 0px;
 }
 
 h1 {
   margin-left: 30px;
+  margin-bottom: 30px;
   padding-left: 10vw;
 }
 
@@ -192,24 +196,36 @@ img {
 }
 
 #bottom-nav {
-    width: 100%;
-    height: 8vh;
-    background: #000;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+  width: 100%;
+  height: 11vh;
+  background: #000;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
-#bottom-logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.bottom-logo {
+  width: 100px;
+  margin-bottom: 30px;
+  margin-left: 100px;
+}
+
+#social-buttons {
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: baseline;
+  margin-right: 570px;
 }
 
 #social {
-    font-family: 'Raleway', sans-serif;
-    background: transparent;
-    border: none;
-    color: #fff;
+  font-family: "Raleway", sans-serif;
+  background: transparent;
+  border: none;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
