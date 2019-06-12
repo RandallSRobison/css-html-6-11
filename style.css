@@ -1,44 +1,215 @@
 body {
-    width: 100vw;
-    height: 100vh;
+  width: 100vw;
+  height: 220vh;
 }
 
 #navbar {
-    width: 100%;
-    height: 10%;
-    background: #000;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+  width: 100%;
+  height: 10%;
+  background: #000;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
 
 h1 {
-    margin-left: 30px;
+  margin-left: 30px;
+  padding-left: 10vw;
 }
 
 .ul-left {
-    width: 400px;
-    color: #fff;
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  font-family: "Raleway", sans-serif;
+  width: 370px;
+  color: #fff;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .ul-right {
-    width: 400px;
-    color: #666;
-    list-style: none;
+  font-family: "Raleway", sans-serif;
+  width: 370px;
+  color: #666;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 10vw;
+}
+
+#main-photo {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-start;
+  background-size: cover;
+  background-image: url(./IMG_0955.png);
+}
+
+#text-1 {
+  background-color: rgba(0, 0, 0, 0.9);
+  width: 100%;
+  height: 15%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#message {
+  font-family: "Raleway", sans-serif;
+  width: 400px;
+  color: #9370db;
+  font-size: 2.5rem;
+}
+
+#button-1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.5rem;
+  color: lightblue;
+  width: 200px;
+  height: 40px;
+  border-radius: 8px;
+}
+
+#under-photo-text-box {
+  width: 100%;
+  height: 5%;
+  background: #222;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.three-list {
+  width: 100%;
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 20vw;
+  margin-right: 20vw;
+}
+
+#one {
+  width: 20px;
+  height: 5px;
+  color: #666;
+  display: flex;
+  margin-right: 6px;
+}
+
+#two {
+  width: 20px;
+  height: 5px;
+  color: #666;
+  display: flex;
+  margin-right: 6px;
+}
+
+#three {
+  width: 20px;
+  height: 5px;
+  color: #666;
+  display: flex;
+  margin-right: 6px;
+}
+
+.big-white {
+  width: 100%;
+  height: 15vh;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.t-o-w-box {
+  width: 100%;
+  height: 15vh;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#text-on-white {
+  font-family: "Raleway", sans-serif;
+  color: pink;
+  display: flex;
+}
+
+.container {
+  width: 100%;
+  height: 85vh;
+  background: #fff;
+  display: flex;
+  flex-direction: row;
+  margin-left: 120px;
+  align-items: center;
+}
+
+.box {
+  width: 300px;
+  height: 245px;
+  background: #fff;
+  margin-left: 50px;
+  margin-right: 50px;
+  box-shadow: 0 0 5px #ccc;
+  box-shadow: 0 0 5px #ccc;
+  box-shadow: 0 0 5px #ccc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  max-width: 250px;
+  display: flex;
+  margin-top: 25px;
+}
+
+#text {
+  font-family: "Raleway", sans-serif;
+  color: #9370db;
+  margin-top: 15px;
+}
+
+#learn-more-buttons {
+  font-family: "Raleway", sans-serif;
+  background: transparent;
+  border: none;
+  color: lightblue;
+  margin-top: 45px;
+  margin-right: 160px;
+  display: flex;
+}
+
+#bottom-nav {
+    width: 100%;
+    height: 8vh;
+    background: #000;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
 
-#main-photo {
-    width: 100%;
-    height: 100%;
+#bottom-logo {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
+}
+
+#social {
+    font-family: 'Raleway', sans-serif;
+    background: transparent;
+    border: none;
+    color: #fff;
 }
